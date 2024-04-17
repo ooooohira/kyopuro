@@ -1,0 +1,43 @@
+bash evaluate.sh 0 'facebook/xglm-1.7B' 'tr' 'en' 'xnli'
+{'accuracy': 0.38283433133732536, 'f1': 0.29398156540900594, 'precision': 0.44097463990716085, 'recall': 0.38283433133732536}
+bash evaluate.sh 0 'facebook/xglm-1.7B' 'fr' 'en' 'xnli'
+{'accuracy': 0.4660678642714571, 'f1': 0.4138407938244796, 'precision': 0.4907911253760336, 'recall': 0.4660678642714571}
+bash evaluate.sh 0 'facebook/xglm-1.7B' 'es' 'en' 'xnli'
+{'accuracy': 0.3522954091816367, 'f1': 0.21139139206980925, 'precision': 0.4937769041751384, 'recall': 0.3522954091816367}
+bash evaluate.sh 0 'facebook/xglm-1.7B' 'zh' 'en' 'xnli'
+{'accuracy': 0.45149700598802395, 'f1': 0.40941782469119936, 'precision': 0.4618966245320602, 'recall': 0.45149700598802395}
+
+bash evaluate.sh 0 'facebook/xglm-1.7B' 'en' 'en' 'xnli'
+{'accuracy': 0.4784431137724551, 'f1': 0.4223600029253279, 'precision': 0.5035762490534658, 'recall': 0.4784431137724551}
+bash evaluate.sh 0 'facebook/xglm-1.7B' 'tr' 'tr' 'xnli'
+{'accuracy': 0.4493013972055888, 'f1': 0.4474079748937587, 'precision': 0.46421170872388123, 'recall': 0.4493013972055888}
+bash evaluate.sh 0 'facebook/xglm-1.7B' 'fr' 'fr' 'xnli'
+{'accuracy': 0.49500998003992014, 'f1': 0.4911323343409008, 'precision': 0.5208804584804586, 'recall': 0.49500998003992014}
+bash evaluate.sh 0 'facebook/xglm-1.7B' 'es' 'es' 'xnli'
+{'accuracy': 0.47584830339321355, 'f1': 0.4431675948697089, 'precision': 0.48941628778192253, 'recall': 0.47584830339321355}
+bash evaluate.sh 0 'facebook/xglm-1.7B' 'zh' 'zh' 'xnli'
+{'accuracy': 0.3385229540918164, 'f1': 0.24361307450402947, 'precision': 0.22430797084971998, 'recall': 0.3385229540918164}
+
+
+
+
+bash evaluate.sh 0 'ai-forever/mGPT' 'tr' 'en' 'xnli'
+{'accuracy': 0.3998003992015968, 'f1': 0.39877244544077317, 'precision': 0.40111033971774823, 'recall': 0.3998003992015968}
+bash evaluate.sh 0 'ai-forever/mGPT' 'fr' 'en' 'xnli'
+{'accuracy': 0.4239520958083832, 'f1': 0.40845553984855604, 'precision': 0.4313726794243883, 'recall': 0.4239520958083832}
+bash evaluate.sh 0 'ai-forever/mGPT' 'es' 'en' 'xnli'
+{'accuracy': 0.39461077844311376, 'f1': 0.3208897320968207, 'precision': 0.4554581384601107, 'recall': 0.39461077844311376}
+bash evaluate.sh 0 'ai-forever/mGPT' 'zh' 'en' 'xnli'
+{'accuracy': 0.4183632734530938, 'f1': 0.3868840350517847, 'precision': 0.43840761568191045, 'recall': 0.4183632734530938}
+
+
+bash evaluate.sh 0 'ai-forever/mGPT' 'en' 'en' 'xnli'
+{'accuracy': 0.48223552894211574, 'f1': 0.4627373912865926, 'precision': 0.4810068593249615, 'recall': 0.48223552894211574}
+bash evaluate.sh 0 'ai-forever/mGPT' 'tr' 'tr' 'xnli'
+{'accuracy': 0.4189620758483034, 'f1': 0.3374284756429802, 'precision': 0.47905261618532746, 'recall': 0.4189620758483034}
+bash evaluate.sh 0 'ai-forever/mGPT' 'fr' 'fr' 'xnli'
+{'accuracy': 0.37065868263473056, 'f1': 0.2534867254531239, 'precision': 0.5071686529759121, 'recall': 0.37065868263473056}
+bash evaluate.sh 0 'ai-forever/mGPT' 'es' 'es' 'xnli'
+{'accuracy': 0.411377245508982, 'f1': 0.32434757961761274, 'precision': 0.4941980936593453, 'recall': 0.411377245508982}
+bash evaluate.sh 0 'ai-forever/mGPT' 'zh' 'zh' 'xnli'
+{'accuracy': 0.3343313373253493, 'f1': 0.18177086107851878, 'precision': 0.23684210526315788, 'recall': 0.3343313373253493}

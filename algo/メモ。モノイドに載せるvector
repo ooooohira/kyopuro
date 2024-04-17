@@ -1,0 +1,2 @@
+モノイドにstruct{}で定義して何か型の出る時、vectorでなく、int A[3]のような配列使う。
+vector遅いTLE
